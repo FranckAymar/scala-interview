@@ -1,12 +1,45 @@
-
 1) Explain REST and RESTful
+
+REST is an architectural style whose have some properties :
+    - Stateless
+    -Use only HHTP protocol
+    -
+    -Resource manipulation through representations
+        - Once a resource is known, can manipulate with HTTP methods (GET, POST, PUT & DELETE)
+    -No permanent link between Client and Server
+    -Return JSON or XML response
+
+
+RESTful follows all the above properties.
 
 2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
 
+
+
+
 3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
+
+GET : Use to retrieve a data
+
+PUT : Update an existing resource
+
+POST : Update an existing resource
+
+DELETE : Delete a resource
 
 4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
 
+Stateless : State management is achieved by the client and the server do not store any context about client
+
+Stateful : Stateful protocol keep specific details of a client
+
 5) Explain the difference between a GET and a POST (like how are sent the parameters)
 
-6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+GET : the parameters are sent in the URL
+
+POST : the parameters are stored in the request body
+
+6) You can’t work out how to solve a coding problem. What do you do to find the answer?*
+
+    1- First I try to search my problem on Internet for see if any person also encountered it
+    2- If I don't solve the problem, I try to search in the official documentation or I try to present this problem to my colleague
